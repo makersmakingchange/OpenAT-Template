@@ -104,14 +104,11 @@ ATTRIBUTION
 Include any information related to the development of the design. This may include who identified the initial challenge, who contributed to the design
 --->
 
-<<<<<<< Updated upstream
 The documentation template was created by Makers Making Change and is used under a CC BY-SA 4.0 license. It is available at the following link: https://github.com/makersmakingchange/OpenAT-Template
 
 
 
 =======
----
->>>>>>> Stashed changes
 
 ## About Makers Making Change
 <img src="https://www.makersmakingchange.com/wp-content/uploads/logo/mmc_logo.svg" width="500" alt="Makers Making Change Logo">
