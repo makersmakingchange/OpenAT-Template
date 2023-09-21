@@ -1,3 +1,4 @@
+
 <!--- 
 Open Source Assistive Technology: GitHub Readme Template
  --->
@@ -14,63 +15,68 @@ This document includes helper text that will not be displayed when rendered. Any
 TITLE
 Should match the name of the GitHub repository. Choose something descriptive rather than whimsical. 
  --->
- # (todo:Project Title)
+ 
+ # Device-Name
 
 <!--- 
 SUMMARY
 A brief summary of the project. What it does, who it is for, how much it costs.
  --->
-The (todo:Project Title) is for making it easier to document Open-Source Assistive Technology devices. It is intended for use by makers. The device is comprised of off-the-shelf electronics and 3D printed parts. The overall cost of materials is about $8 (plus $8 for component shipping).
 
-<!--- 
-PHOTO
+The (todo:Device-Name) is for making it easier to document Open-Source Assistive Technology devices. It is intended for use by makers. The device is comprised of off-the-shelf electronics and 3D printed parts. The overall cost of materials is about $8 (plus $8 for component shipping).
 
- --->
-![Image Description](Photos/Device_Photo.jpg)
+<img src="Photos/Device-Name.jpg" width="500" alt="Picture of Device-Name.">
 
-<!--- 
 ## More info at
- - [Makers Making Change Forum Thread](TBD) 
- - [Makers Making Change Project Page](TBD)
- --->
+- [Makers Making Change Project Page](<Add link>)
+
+## How to Obtain the Device
+### 1. Do-it-Yourself (DIY) or Do-it-Together (DIT)
+
+This is an open-source assistive technology, so anyone is free to build it. All of the files and instructions required to build the device are contained within this repository. Refer to the Maker Guide below.
+
+### 2. Request a build of this device
+
+You may also submit a build request through the [MMC Library Page](https://makersmakingchange.com/project/device-name/) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
+
+### 3. Build this device for someone else
+
+If you have the skills and equipment to build this device, and would like to donate your time to create the device for someone who needs it, visit the [MMC Maker Wanted](https://makersmakingchange.com/maker-wanted/) section.
 
 
-## Getting Started
-<!--- 
-Include an overall idea of what major steps are required to build the device.
- --->
+## Build Instructions
 
-### 1. Order the Off-The-Shelf Components
-The [Bill of Materials](/Documentation/ProductTitle_BOM_v0.1.xlsx) lists all of the parts and components required to build the (todo:Project Title). The electronic components may be available locally, but will probably need to be ordered online. 
+### 1. Read through the Maker Guide
 
-### 2. Print the 3D Printable components
-Print the components for the switch tester case and choose an option for the case.
+The [Maker Guide](/Documentation/Device-Name_Maker_Guide.pdf)  contains all the necessary information to build this device, including tool lists, assembly instructions, programming instructions (if applicable) and testing.
 
-All of the files and individual print files can be in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing_Files/) folder.
 
-### 3. Assemble the (todo:Product Title)
-Reference the [assembly guide](/Documentation/ProductTitle_Assembly_Guide_v1.0.pdf) for the tools and steps required to build each portion.
+
+### 2. Order the Off-The-Shelf Components
+
+The [Bill of Materials](/Documentation/Device-Name_BOM.xlsx) lists all of the parts and components required to build the Open Wobble Switch. The main switch component needs to be ordered online. The rest of the off-the-shelf components are also online or may be available in smaller quantities at your local hardware store or dollar store.
+
+
+### 3. Print the 3D Printable components
+
+All of the files and individual print files can be in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing/) folder.
+
+### 4. Assemble the <Device-Name>
+
+Reference the [Assembly Guide](/Documentation/Device-Name_Assembly_Guide.pdf) for the tools and steps required to build each portion.
+
+## How to improve this Device
+As open source assistive technology, you are welcomed and encouraged to improve upon the design. 
 
 ## Files
-<!---
-FILES
-This section includes all the information and files required to build and modify the device, including documentation, design files, and build files. 
---->
-
 ### Documentation
-<!---
-DOCUMENTATION
-
---->
-| Document | Version | Link |
-|----------|---------|------|
-| Design Specifications| 1.0 | [ProjectTitle_Design_Specifications](/Documentation//Working_Files/ProjectTitle_Design_Rationale_v0.1.pdf) |
-| Design Rationale     | 1.0 | [ProjectTitle_Design_Rationale](/Documentation/ProjectTitle_Design_Rationale_v0.1.pdf) |
-| Bill of Materials    | 1.0 | [ProjectTitle_BOM](/Documentation/ProjectTitle_BOM_v0.1.xlsx) |
-| Assembly Guide       | 1.0 | [ProjectTitle_Instructions](/Documentation/ProjectTitle_Assembly_Guide_v0.1.pdf) |
-| Maker Checklist      | 1.0 | [ProjectTitle_Checklist](/Documentation/ProjectTitle_Maker_Checklist_v0.1.pdf) |
-| User Quick Guide     | 1.0 | [ProjectTitle_Quick_Guide](/Documentation/ProjectTitle_Quick_Guide_v0.1.pdf)           |
-| Changelog            | 1.0 | [ProjectTitle_Changelog](/Documentation/ProjectTitle_Changelog_v0.1.pdf)               |
+| Document             | Version | Link |
+|----------------------|---------|------|
+| Design Rationale     | 1.0     | [DeviceName_Design_Rationale](/Documentation/Device-Name_Design_Rationale.pdf)     |
+| Maker Guide          | 1.0     | [DeviceName_Maker_Checklist](/Documentation/Device-Name_Maker_Guide.pdf)     |
+| Bill of Materials    | 1.0     | [DeviceName_Bill_of_Materials](/Documentation/Device-Name_BOM.xlsx)     |
+| User Guide           | 1.0     | [DeviceName_User_Guide](/Documentation/Device-Name_Quick_Guide.pdf)    |
+| Changelog            | 1.0     | [DeviceName_Changelog](CHANGES.txt)     |
 
 ### Design Files
 <!---
@@ -81,49 +87,51 @@ If possible, include a copy of original design files to facilitate easy editing 
  - [PCB Files](/Design_Files/PCB)
 
 ### Build Files
-<!---
-BUILD FILES
-This section contains the files for building the device.
---->
  - [3D Printing Files](/Build_Files/3D_Printing)
- - [Custom PCB Files](/Build_Files/Custom_PCB)
- - [V1.0 3MF](/Build_Files/3D_Printing/ProductTitle_v1.0.3mf)
+ - [PCB Files](/Build_Files/)
 
-## License
-<!---
-LICENSE
-Choose an appropriate license. We recommend an open-source hardware compatible license.
---->
-Everything needed or used to design, make, test, or prepare the (todo: Project Title) is licensed under the CERN 2.0 Weakly Reciprocal license <https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2> (CERN-OHL-W).
-
-All software is under the GNU General Public License v3.0 (GPL-3.0). 
-
-Accompanying material such as instruction manuals, videos, and other copyrightable works that are useful but not necessary to design, make, test, or prepare the (todo: Project Title) are published under a Creative Commons Attribution-ShareAlike 4.0 license <https://creativecommons.org/licenses/by-sa/4.0/> (CC BY-SA 4.0).
+### Software Files
+ - [Software Files](/Build/Software_Files)
 
 ## Attribution
-<!---
-ATTRIBUTION
-Include any information related to the development of the design. This may include who identified the initial challenge, who contributed to the design
---->
-
-The documentation template was created by [Neil Squire](https://www.neilsquire.ca/) / [Makers Making Change](https://makersmakingchange.com/) and is used under a CC BY-SA 4.0 license. It is available at the following link: https://github.com/makersmakingchange/OpenAT-Template
+Designers:
+ - Designer 1 
+ - Designer 2
 
 
 
-=======
+## License
+Copyright (c) 2023 Neil Squire / Makers Making Change.
+
+This repository describes Open Hardware:
+ - Everything needed or used to design, make, test, or prepare the <Device-Name> is licensed under the [CERN 2.0 Weakly Reciprocal license (CERN-OHL-W v2) or later](https://cern.ch/cern-ohl ) .
+ - All software is under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl.html).
+ - Accompanying material such as instruction manuals, videos, and other copyrightable works that are useful but not necessary to design, make, test, or prepare the <Device-Name> are published under a [Creative Commons Attribution-ShareAlike 4.0 license (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) .
+
+You may redistribute and modify this documentation and make products using it under the terms of the [CERN-OHL-W v2](https://cern.ch/cern-ohl).
+This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
+Please see the CERN-OHL-W v2 for applicable conditions.
+
+Source Location: https://github.com/makersmakingchange/<Device-Name>
+
+
+---
 
 ## About Makers Making Change
-<img src="https://www.makersmakingchange.com/wp-content/uploads/logo/mmc_logo.svg" width="500" alt="Makers Making Change Logo">
+[<img src="https://raw.githubusercontent.com/makersmakingchange/makersmakingchange/main/img/mmc_logo.svg" width="500" alt="Makers Making Change Logo">](https://www.makersmakingchange.com/)
 
-Makers Making Change is an initiative of [Neil Squire](https://www.neilsquire.ca/), a Canadian non-profit that uses technology, knowledge, and passion to empower people with disabilities.
+Makers Making Change is a program of [Neil Squire](https://www.neilsquire.ca/), a Canadian non-profit that uses technology, knowledge, and passion to empower people with disabilities.
 
-We are committed to cultivating a network of volunteer makers who support people with disabilities in their communities through cost effective assistive technology. Check out our library of free, open-source assistive technologies.
+Makers Making Change leverages the capacity of community based Makers, Disability Professionals and Volunteers to develop and deliver affordable Open Source Assistive Technologies.
 
  - Website: [www.MakersMakingChange.com](https://www.makersmakingchange.com/)
- - [GitHub](https://github.com/makersmakingchange)
- - [Thingiverse](https://www.thingiverse.com/makersmakingchange/about)
+ - GitHub: [makersmakingchange](https://github.com/makersmakingchange)
  - Twitter: [@makermakechange](https://twitter.com/makermakechange)
  - Instagram: [@makersmakingchange](https://www.instagram.com/makersmakingchange)
+ - Facebook: [makersmakechange](https://www.facebook.com/makersmakechange)
+ - LinkedIn: [Neil Squire Society](https://www.linkedin.com/company/neil-squire-society/)
+ - Thingiverse: [makersmakingchange](https://www.thingiverse.com/makersmakingchange/about)
+ - Printables: [MakersMakingChange](https://www.printables.com/@MakersMakingChange)
 
 ### Contact Us
-For technical questions, to get involved, or to share your experience we encourage you to visit [MMC Forum](https://forum.makersmakingchange.com) or contact info@makersmakingchange.com
+For technical questions, to get involved, or to share your experience we encourage you to [visit our website](https://www.makersmakingchange.com/) or [contact us](https://www.makersmakingchange.com/s/contact).
