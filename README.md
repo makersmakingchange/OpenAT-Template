@@ -4,6 +4,11 @@ Open Source Assistive Technology: GitHub Readme Template
 Version 1.1 (2024-Mar-15)
  --->
 
+<!--- 
+Introductory text. This section and the following text should be removed.
+ --->
+This is a GitHub repository intended to act as a template for an open source assistive technology device. It is meant to contain all design files, build files, and documentation for the project. More information about how to use the template is available in the [Documentation_Guide](/Documentation_Guide.docx). You can see examples of other Open AT Devices at the Makers Making Change [website](https://www.makersmakingchange.com/s/category/assistive-devices). 
+
 <!---
 INSTRUCTIONS
 This is a markdown template for creating the README.md file in a GitHub repository. This file is rendered and displayed automatically when someone visits the repository.
@@ -22,7 +27,9 @@ This template has a number of fields that can be searched and replaced with othe
 TITLE
 Should match the name of the GitHub repository. Choose something descriptive rather than whimsical. 
  --->
-  # <DeviceName>
+# <DeviceName>
+
+
 
 <!--- 
 SUMMARY
