@@ -1,6 +1,7 @@
 
 <!--- 
 Open Source Assistive Technology: GitHub Readme Template
+Version 1.1 (2024-Mar-15)
  --->
 
 <!---
@@ -9,26 +10,36 @@ This is a markdown template for creating the README.md file in a GitHub reposito
 
 This document includes helper text that will not be displayed when rendered. Any text between the less-than sign + exclamation mark + three hyphen-minus (<!---) and matching three hyphen-minus + greater-than sign will not be displayed. This helper text can be deleted once the corresponding section is completed.
 
+This template has a number of fields that can be searched and replaced with other text:
+ - <Device_Name> Replace this with filename-friendly version of the device with underscores. e.g., Open_Wobble_Switch
+ - <DeviceName> Replace this with the human-readable name of the device with spaces. e.g., Open Wobble Switch
+ - <DesignerName> Replace this with the person or organization responsible for the design. e.g., John Doe.
+ - <RepositoryLink> Replace this with the web address for the repository. e.g., (e.g., https://github.com/makersmakingchange/Open-Wobble-Switch))
+ - <MMCWebLink> This is an alphanumeric id for the Makers Making Change Website. e.g., 01tJR000000698oYAA. This will come from MMC staff. 
  --->
  
  <!--- 
 TITLE
 Should match the name of the GitHub repository. Choose something descriptive rather than whimsical. 
  --->
- 
- # Device-Name
+  # <DeviceName>
 
 <!--- 
 SUMMARY
 A brief summary of the project. What it does, who it is for, how much it costs.
  --->
+The <DeviceName> is an assistive technology widget that makes it easier to document Open-Source Assistive Technology devices. 
 
-The (todo:Device-Name) is for making it easier to document Open-Source Assistive Technology devices. It is intended for use by makers. The device is comprised of off-the-shelf electronics and 3D printed parts. The overall cost of materials is about $8 (plus $8 for component shipping).
+It is intended for use by makers. 
 
-<img src="Photos/Device-Name.jpg" width="500" alt="Picture of Device-Name.">
+The device is comprised of off-the-shelf electronics and 3D printed parts. 
+
+The overall cost of materials is about $<MaterialCost> (plus $<ShippingCost> for component shipping).
+
+<img src="Photos/<Device_Name>.jpg" width="500" alt="Picture of <DeviceName>.">
 
 ## More info at
-- [Makers Making Change Project Page](<Add link>)
+- [Makers Making Change Assisitive Device Listing](<MMCWebLink>)
 
 ## How to Obtain the Device
 ### 1. Do-it-Yourself (DIY) or Do-it-Together (DIT)
@@ -37,7 +48,7 @@ This is an open-source assistive technology, so anyone is free to build it. All 
 
 ### 2. Request a build of this device
 
-You may also submit a build request through the [MMC Library Page](https://makersmakingchange.com/project/device-name/) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
+You may also submit a build request through the [Makers Making Change Assisitive Device Listing](<MMCWebLink>) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
 
 ### 3. Build this device for someone else
 
@@ -48,22 +59,21 @@ If you have the skills and equipment to build this device, and would like to don
 
 ### 1. Read through the Maker Guide
 
-The [Maker Guide](/Documentation/Device-Name_Maker_Guide.pdf)  contains all the necessary information to build this device, including tool lists, assembly instructions, programming instructions (if applicable) and testing.
-
+The [Maker Guide](/Documentation/<Device_Name>_Maker_Guide.pdf)  contains all the necessary information to build this device, including tool lists, assembly instructions, programming instructions (if applicable) and testing.
 
 
 ### 2. Order the Off-The-Shelf Components
 
-The [Bill of Materials](/Documentation/Device-Name_BOM.xlsx) lists all of the parts and components required to build the Open Wobble Switch. The main switch component needs to be ordered online. The rest of the off-the-shelf components are also online or may be available in smaller quantities at your local hardware store or dollar store.
+The [Bill of Materials](/Documentation/<Device_Name>_BOM.xlsx) lists all of the parts and components required to build the device.
 
 
 ### 3. Print the 3D Printable components
 
-All of the files and individual print files can be in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing/) folder.
+All of the files and individual print files can be in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing_Files/) folder.
 
-### 4. Assemble the <Device-Name>
+### 4. Assemble the <DeviceName>
 
-Reference the [Assembly Guide](/Documentation/Device-Name_Assembly_Guide.pdf) for the tools and steps required to build each portion.
+Reference the [Assembly Guide](/Documentation/<Device_Name>_Assembly_Guide.pdf) for the tools and steps required to build each portion.
 
 ## How to improve this Device
 As open source assistive technology, you are welcomed and encouraged to improve upon the design. 
@@ -72,36 +82,59 @@ As open source assistive technology, you are welcomed and encouraged to improve 
 ### Documentation
 | Document             | Version | Link |
 |----------------------|---------|------|
-| Design Rationale     | 1.0     | [DeviceName_Design_Rationale](/Documentation/Device-Name_Design_Rationale.pdf)     |
-| Maker Guide          | 1.0     | [DeviceName_Maker_Checklist](/Documentation/Device-Name_Maker_Guide.pdf)     |
-| Bill of Materials    | 1.0     | [DeviceName_Bill_of_Materials](/Documentation/Device-Name_BOM.xlsx)     |
-| User Guide           | 1.0     | [DeviceName_User_Guide](/Documentation/Device-Name_Quick_Guide.pdf)    |
-| Changelog            | 1.0     | [DeviceName_Changelog](CHANGES.txt)     |
+| Design Rationale     | 1.0     | [<DeviceName>_Design_Rationale](/Documentation/<Device_Name>_Design_Rationale.pdf)     |
+| Maker Guide          | 1.0     | [<DeviceName>_Maker_Checklist](/Documentation/<Device_Name>_Maker_Guide.pdf)     |
+| Bill of Materials    | 1.0     | [<DeviceName>_Bill_of_Materials](/Documentation/<Device_Name>_BOM.xlsx)     |
+| User Guide           | 1.0     | [<DeviceName>_User_Guide](/Documentation/<Device_Name>_Quick_Guide.pdf)    |
+| Changelog            | 1.0     | [Changelog](CHANGES.txt)     |
 
 ### Design Files
 <!---
 DESIGN FILES
-If possible, include a copy of original design files to facilitate easy editing and customization.
+Include a copy of the original design files to facilitate easy editing and customization. Consider also including a generic format (e.g., STEP)
 --->
- - [CAD Files](/Design_Files/CAD)
- - [PCB Files](/Design_Files/PCB)
+ - [CAD Files](/Design_Files/CAD_Design_Files)
+ - [PCB Files](/Design_Files/PCB_Design_Files)
 
+<!---
+BUILD FILES
+Include a copy of the build files intended for manufacturing. This may include svg files for laser cutting, stl files for 3d printing, Gerber files for custom PCBs, and Arduino files for custom firmware
+--->
 ### Build Files
- - [3D Printing Files](/Build_Files/3D_Printing)
- - [PCB Files](/Build_Files/)
+ - [3D Printing Files](/Build_Files/3D_Printing_Files)
+ - [PCB Build Files](/Build_Files/PCB_Build_Files)
+ - [Firmware Files](/Build/Firmware_Files)
 
-### Software Files
- - [Software Files](/Build/Software_Files)
-
+<!---
+ATTRIBUTION
+Provide any necessary attribution for designs or components that are included in the device or as part of the project.
+--->
 ## Attribution
+
+The device was designed by <DesignerName>. 
+
+<!---
+This is the attribution for the template.
+--->
+The documentation template was created by Makers Making Change / Neil Squire Society and is used under a CC BY-SA 4.0 license. It is available at the following link: [https://github.com/makersmakingchange/OpenAT-Template](https://github.com/makersmakingchange/OpenAT-Template)
+
+<!---
+CONTRIBUTORS
+List the names of the people that contributed to the design. This could include the original source of the idea, designers, testers, documenters, etc.
+--->
+### Contributors
+
 Designers:
  - Designer 1 
  - Designer 2
 
 
-
+<!---
+LICENSE
+Add the year(s) for the copyright and the Designer Name. You may use the standard set of open licenses or choose your own for the hardware, software, and accompanying materials.
+--->
 ## License
-Copyright (c) 2023 Neil Squire / Makers Making Change.
+Copyright (c) YYYY <DesignerName>.
 
 This repository describes Open Hardware:
  - Everything needed or used to design, make, test, or prepare the <Device-Name> is licensed under the [CERN 2.0 Weakly Reciprocal license (CERN-OHL-W v2) or later](https://cern.ch/cern-ohl ) .
@@ -112,7 +145,7 @@ You may redistribute and modify this documentation and make products using it un
 This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
 Please see the CERN-OHL-W v2 for applicable conditions.
 
-Source Location: https://github.com/makersmakingchange/<Device-Name>
+Source Location: <Repository_Link> 
 
 
 ---
@@ -126,7 +159,7 @@ Makers Making Change leverages the capacity of community based Makers, Disabilit
 
  - Website: [www.MakersMakingChange.com](https://www.makersmakingchange.com/)
  - GitHub: [makersmakingchange](https://github.com/makersmakingchange)
- - Twitter: [@makermakechange](https://twitter.com/makermakechange)
+ - X (formally Twitter): [@makermakechange](https://twitter.com/makermakechange)
  - Instagram: [@makersmakingchange](https://www.instagram.com/makersmakingchange)
  - Facebook: [makersmakechange](https://www.facebook.com/makersmakechange)
  - LinkedIn: [Neil Squire Society](https://www.linkedin.com/company/neil-squire-society/)
