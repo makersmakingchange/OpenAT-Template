@@ -46,7 +46,7 @@ The overall cost of materials is about $<MaterialCost> (plus $<ShippingCost> for
 <img src="Photos/<Device_Name>.jpg" width="500" alt="Picture of <DeviceName>.">
 
 ## More info at
-- [Makers Making Change Assisitive Device Listing](<MMCWebLink>)
+- [Makers Making Change Assistive Device Library Listing](<MMCWebLink>)
 
 ## How to Obtain the Device
 ### 1. Do-it-Yourself (DIY) or Do-it-Together (DIT)
@@ -55,7 +55,7 @@ This is an open-source assistive technology, so anyone is free to build it. All 
 
 ### 2. Request a build of this device
 
-You may also submit a build request through the [Makers Making Change Assisitive Device Listing](<MMCWebLink>) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
+You may also submit a build request through the [Makers Making Change Assistive Device Library Listing](<MMCWebLink>) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
 
 ### 3. Build this device for someone else
 
