@@ -1,5 +1,7 @@
-Version 0.1 | YYYY-mmm-DD
+Version X.Y.Z | YYYY-mmm-DD
  - Initial Prototype
+ - <SUMMARIZE KEY FEATURES>
+
 
 
 
