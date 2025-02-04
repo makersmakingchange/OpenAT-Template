@@ -37,7 +37,7 @@ The <DeviceName> is open assistive technology (OpenAT). Under the terms of the o
 
 The overall cost of materials is about $<MaterialCost> (plus $<ShippingCost> for component shipping).
 
-<img src="Photos/<Device_Name>.jpg" width="500" alt="Picture of <DeviceName>.">
+<img src="Photos/Device_Name.jpg" width="500" alt="Picture of <DeviceName>.">
 
 ## Makers Making Change Assistive Device Library
 <MMCWebLink>
