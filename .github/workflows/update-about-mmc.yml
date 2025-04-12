@@ -20,7 +20,7 @@ jobs:
 
       - name: Fetch shared About MMC section
         run: |
-          curl -s https://raw.githubusercontent.com/makersmakingchange/Makers-Making-Change/refs/heads/main/README.md -o about.md
+          curl -s https://raw.githubusercontent.com/makersmakingchange/Makers-Making-Change/refs/heads/main/ABOUT_MMC.md -o about.md
 
       - name: Replace About MMC section in README
         run: |
