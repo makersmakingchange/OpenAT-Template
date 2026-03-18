@@ -71,7 +71,7 @@ The [Bill of Materials](/Documentation/<Device_Name>_BOM.xlsx) lists all of the 
 
 ### 3. Print the 3D Printable components
 
-All of the files and individual print files can be found in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing_Files/) folder.
+All of the 3D print files can be found in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing_Files/) folder.
 
 ### 4. Assemble the <DeviceName>
 
